@@ -109,7 +109,7 @@ class POSTagger:
 		maxVal = 0
 		for tag in self.tag_set:
 			tim2 = tag
-			maxValNew = max(bestScoreSub(i, (tim2, tim1, ti), cache)*probTiGiven, maxVal)
+			maxValNew = max(bestScoreSub(i, (tim2, tim1, ti), sentence, cache)*probTiGiven, maxVal)
 			if (maxValNew != maxVal):
 				maxTag = tag
 			maxVal = maxValNew
