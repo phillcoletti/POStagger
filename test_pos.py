@@ -31,3 +31,5 @@ def evalTagger(N):
 	support_cutoff = 2
 	tagger = POSTagger(simplify=True, tag_cutoff=1)
 	tagger.randEvalL(N, feature_set, support_cutoff)
+    return tagger
+
