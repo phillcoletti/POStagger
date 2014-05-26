@@ -1,0 +1,146 @@
+" long lines
+set wrap
+
+" Tabs are 2 characters
+ set tabstop=4
+
+ " (Auto)indent uses 2 characters
+ set shiftwidth=4
+
+ " spaces instead of tabs
+ set expandtab
+
+ " guess indentation
+ set autoindent
+
+ " Expand the command line using tab
+ set wildchar=<Tab>
+
+ " show line numbers
+ set number
+
+ " Fold using markers {{{
+ " like this
+ " }}}
+ set foldmethod=marker
+
+ " enable all features
+ set nocompatible
+
+ " powerful backspaces
+ set backspace=indent,eol,start
+
+ " highlight the searchterms
+ set hlsearch
+
+ " jump to the matches while typing
+ set incsearch
+
+ " ignore case while searching IFF the search is all lowercase
+ set smartcase
+
+ " don't wrap words
+ set textwidth=0
+
+ " history
+ set history=50
+
+ " 1000 undo levels
+ set undolevels=1000
+
+ " show a ruler
+ set ruler
+" show partial commands
+ set showcmd
+
+" show which mode we're in
+  set showmode
+
+ " show matching braces
+ set showmatch
+
+ " write before hiding a buffer
+ set autowrite
+
+ " allows hidden buffers to stay unsaved, but we do not want this, so comment it out:
+ set hidden
+
+ "set wmh=0
+
+ " auto-detect the filetype
+ filetype plugin indent on
+
+ " syntax highlight
+ syntax on
+
+ " we use a dark background, don't we?
+ " set bg=dark
+
+ "set colorscheme to whatever want
+ colorscheme morning
+
+ " Always show the menu, insert longest match
+ set completeopt=menuone,longest
+
+ " When editing a file, always jump to the last known cursor position.
+ " Don't do it when the position is invalid or when inside an event handler
+ " (happens when dropping a file on gvim).
+   autocmd BufReadPost *
+   \ if line("'\"") > 0 && line("'\"") <= line("$") |
+  \   exe "normal g`\"" |
+  \ endif
+
+"Ruby
+compiler ruby
+
+ "New Additions From The Ruby vim settings: 
+ "http://www.derekwyatt.org/vim/the-vimrc-file/
+ "
+ " Toggle paste mode
+ nmap  ,p :set invpaste:set paste?
+
+ " Turn off that stupid highlight search
+ nmap  ,n :set invhls:set hls?
+
+ " Set text wrapping toggles
+ nmap  ,w :set invwrap:set wrap?
+
+ " Set up retabbing on a source file
+ nmap  ,rr :1,$retab
+
+ " cd to the directory containing the file in the buffer
+ nmap  ,cd :lcd %:h
+
+ " Make the directory that contains the file in the current buffer.
+ " This is useful when you edit a file in a directory that doesn't
+ " (yet) exist
+ nmap  ,md :!mkdir -p %:p:h
+
+ "vim-pathogen: 
+ "https://github.com/tpope/vim-pathogen.git
+ 
+ execute pathogen#infect()
+
+ " ----------------------------------------------
+ " vim-latex settings
+ "
+ " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
+ " filetype plugin on
+ "
+ " " IMPORTANT: win32 users will need to have 'shellslash' set so that latex
+ " " can be called correctly.
+ " set shellslash
+ "
+ " " IMPORTANT: grep will sometimes skip displaying the file name if you
+ " " search in a singe file. This will confuse Latex-Suite. Set your grep
+ " " program to always generate a file-name.
+ " set grepprg=grep\ -nH\ $*
+ "
+ " " OPTIONAL: This enables automatic indentation as you type.
+ " filetype indent on
+ "
+ " " OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults
+ " to
+ " " 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
+ " " The following changes the default filetype back to 'tex':
+ " let g:tex_flavor='latex'
