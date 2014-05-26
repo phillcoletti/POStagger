@@ -10,7 +10,6 @@ import math
 import random
 import timeit
 import csv
-import pickle
 #from nltk.corpus import brown
 
 eps = 10e-50
