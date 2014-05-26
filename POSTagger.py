@@ -9,36 +9,46 @@ import numpy as np
 import math
 import random
 import timeit
-from nltk.corpus import brown
+#from nltk.corpus import brown
 
 eps = 10e-50
 NEGINF = -10e10
 
 class POSTagger:
-	def __init__(self, simplify, tag_cutoff):
+    def __init__(self, tag_cutoff):
 	    #Extract features from all sentences
-		feature_list = []
-		i = 0;
-		for sentence in brown.tagged_sents(simplify_tags=simplify):
-		    if len(sentence) >= 2:
-		        (w1,t1) = sentence.pop(0)
-		        (w2,t2) = sentence.pop(0)
-		        tags = ['start', 'start', 'start', t1, t2]
-		        words = [None, None, None, w1, w2]
-		        sentence.append((None, 'end'))
-		        sentence.append((None, 'end'))
-		        for (w,t) in sentence:
-		            #Shift all words and tags down one slot
-		            tags.pop(0)
-		            tags.append(t)
-		            words.pop(0)
-		            words.append(w)
-		            extra_features = [#(words[1], words[2]), (words[2], words[3]),    #lexical
-		                              #(words[2], tags[1]), (words[2], tags[3]),      #lexical-word combo
-		                              tags[0] + '_' + tags[1], tags[1] + '_' + tags[3], tags[3] + '_' + tags[4]]  #tag sequence
-		            features = [i] + tags + words + extra_features
-		            feature_list.append(features)
-	            i = i + 1
+        feature_list = []
+        i = 0;
+        words_file = open('brown-words.txt', 'r')
+        tags_file = open('brown-tags.txt', 'r')
+        for sentence in words_file:
+            sentence = sentence.replace("\n", "")
+            sentence = sentence.split(" ")
+            tagline = tags_file.readline()
+            tagline = tagline.replace("\n", "")
+            tagline = tagline.split(" ")
+            if len(sentence) >= 2:
+                w1 = sentence.pop(0)
+                w2 = sentence.pop(0)
+                t1 = tagline.pop(0)
+                t2 = tagline.pop(0)
+                tags = ['start', 'start', 'start', t1, t2]
+                words = [None, None, None, w1, w2]
+                sentence.append((None, 'end'))
+                sentence.append((None, 'end'))
+                for (w,t) in zip(sentence, tagline):
+                    #Shift all words and tags down one slot
+                    tags.pop(0)
+                    tags.append(t)
+                    words.pop(0)
+                    words.append(w)
+                    extra_features = [#(words[1], words[2]), (words[2], words[3]),    #lexical
+                                      #(words[2], tags[1]), (words[2], tags[3]),      #lexical-word combo
+                                      tags[0] + '_' + tags[1], tags[1] + '_' + tags[3], tags[3] + '_' + tags[4]]  #tag sequence
+                    features = [i] + tags + words + extra_features
+                    feature_list.append(features)
+                print i
+                i = i + 1
 		#convert to DataFrame
 		feature_names = ['sentence_num', 't_i-2', 't_i-1', 't_i', 't_i+1', 't_i+2', 
         				'w_i-2', 'w_i-1', 'w_i', 'w_i+1', 'w_i+2', 
