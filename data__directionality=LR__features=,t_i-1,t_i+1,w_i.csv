@@ -1,0 +1,13 @@
+,sentence_num,t_i-2,t_i-1,t_i,t_i+1,t_i+2,w_i-2,w_i-1,w_i,w_i+1,w_i+2,"t_i-2,i-1","t_i-1,i+1","t_i+1,i+2",tag_prediction
+719099,31962,start,start,N,.,end,,,Discussion,.,,start_start,start_.,._end,N
+719100,31962,start,N,.,end,end,,Discussion,.,,,start_N,N_end,end_end,.
+997766,46799,start,start,DET,N,VD,,,The,half-man,laughed,start_start,start_N,N_VD,DET
+997767,46799,start,DET,N,VD,P,,The,half-man,laughed,with,start_DET,DET_VD,VD_P,N
+997768,46799,DET,N,VD,P,PRO,The,half-man,laughed,with,something,DET_N,N_P,P_PRO,VD
+997769,46799,N,VD,P,PRO,ADV,half-man,laughed,with,something,close,N_VD,VD_PRO,PRO_ADV,P
+997770,46799,VD,P,PRO,ADV,P,laughed,with,something,close,to,VD_P,P_ADV,ADV_P,PRO
+997771,46799,P,PRO,ADV,P,ADJ,with,something,close,to,real,P_PRO,PRO_P,P_ADJ,N
+997772,46799,PRO,ADV,P,ADJ,N,something,close,to,real,humor,PRO_ADV,ADV_ADJ,ADJ_N,P
+997773,46799,ADV,P,ADJ,N,.,close,to,real,humor,.,ADV_P,P_N,N_.,ADJ
+997774,46799,P,ADJ,N,.,end,to,real,humor,.,,P_ADJ,ADJ_.,._end,N
+997775,46799,ADJ,N,.,end,end,real,humor,.,,,ADJ_N,N_end,end_end,.
