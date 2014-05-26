@@ -24,3 +24,10 @@ def load_cache(i):
 	with open("cache" + str(i) + ".p", "rb") as f:
 		cache = pickle.load(f)
 	return cache
+
+#Test the randEval method
+def evalTagger(N):
+	feature_set = ['t_i-1', 'w_i']
+	support_cutoff = 2
+	tagger = POSTagger(simplify=True, tag_cutoff=1)
+	tagger.randEvalL(N, feature_set, support_cutoff)

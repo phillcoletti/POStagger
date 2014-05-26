@@ -52,20 +52,6 @@ class POSTagger:
 		    tags = frequency[col][frequency[col] >= tag_cutoff].index.values
 		    self.tag_set[col] = tags
 
-		#Jai's initialization
-		# infile_features = open('brown_corpus_prob_features.json', 'r')
-		# infile_prior = open('brown_corpus_prob_priors.json', 'r')
-
-		# #load our data structures
-		# self.prob_features = json.load(infile_features)
-		# self.prob_priors = json.load(infile_prior)
-		
-		# #lastly load the tag set from the prob_features data structure
-		# self.tag_set = self.prob_features["tim1"]
-
-		# infile_features.close()
-		# infile_prior.close()
-
 	#####################################################
 	# Evaluates the model on a random set of N sentences;
 	# Trains on all other sentences
@@ -145,36 +131,13 @@ class POSTagger:
 	def getConditionalProb(self, features, t_i):
 		#if the conditional probability is equal to None, then we assign a prior
 		conditionalProbVal = 0
-
 		#conditional for word i
 		for feature_name in self.feature_set:
 			feature_value = features[feature_name]
 			if (feature_value in self.log_conditional[feature_name].keys()) and (self.log_conditional[feature_name][feature_value][t_i] != None):
 				conditionalProbVal = conditionalProbVal + self.log_conditional[feature_name][feature_value][t_i]
 			else:
-				conditionalProbVal = conditionalProbVal + self.log_prior[t_i]
-
-	 	#################
-		# Jai's old code
-		#################
-		# conditionalProbVal = 1
-		# #conditional for word i
-		# if (self.prob_features["w_i"][w_i][ti] != None):
-		# 	conditionalProbVal = conditionalProbVal*self.prob_features["w_i"][w_i][ti]
-		# else:
-		# 	conditionalProbVal = conditionalProbVal*self.prob_priors["w_i"][w_i][ti]
-
-		# #tim1
-		# if (self.prob_features["tim1"][tim1][ti] != None):
-		# 	conditionalProbVal = conditionalProbVal*self.prob_features["tim1"][tim1][ti]
-		# else:
-		# 	conditionalProbVal = conditionalProbVal*self.prob_priors["tim1"][tim1][ti]
-		
-		# #tip1
-		# if (self.prob_features["tip1"][tip1][ti] != None):
-		# 	conditionalProbVal = conditionalProbVal*self.prob_features["tip1"][tip1][ti]
-		# else:
-		# 	conditionalProbVal = conditionalProbVal*self.prob_priors["tip1"][tip1][ti]		
+				conditionalProbVal = conditionalProbVal + self.log_prior[t_i]	
 		
 		return conditionalProbVal
 
