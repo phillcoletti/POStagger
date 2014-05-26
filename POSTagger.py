@@ -52,6 +52,13 @@ class POSTagger:
 		    tags = frequency[col][frequency[col] >= tag_cutoff].index.values
 		    self.tag_set[col] = tags
 
+	def fixedEval(self, directionality, feature_set, support_cutoff):
+		data_sets = pickle.load( open( "data_sets.p", "rb" ) )
+		print "Training..."
+		self.train(train_sentence_nums=data_sets['train_set'], support_cutoff=support_cutoff)
+		print "Testing..."
+		self.test(test_sentence_nums=data_sets['test_set'], directionality=directionality, feature_set=feature_set)			
+
 	#####################################################
 	# Evaluates the model on a random set of N sentences;
 	# Trains on all other sentences
@@ -63,9 +70,9 @@ class POSTagger:
 		removeset = set(sample)
 		train_set = [v for i, v in enumerate(sentence_nums) if i not in sample]
 		print "Training..."
-		self.train(train_sentence_nums=train_set, support_cutoff=2)
+		self.train(train_sentence_nums=train_set, support_cutoff=support_cutoff)
 		print "Testing..."
-		self.test(test_sentence_nums=test_set, feature_set=feature_set)
+		self.test(test_sentence_nums=test_set, directionality="L", feature_set=feature_set)
 
 
 	####################################################################
@@ -105,7 +112,7 @@ class POSTagger:
 		prior_prob[prior_prob < eps] = eps
 		self.log_prior = np.log(prior_prob)
 
-	def test(self, test_sentence_nums, feature_set):
+	def test(self, test_sentence_nums, directionality, feature_set):
 		self.feature_set = feature_set
 		total_correct = 0;
 		total_words = 0;
@@ -142,78 +149,98 @@ class POSTagger:
 		return conditionalProbVal
 
 
-	def returnTokensBi(self, sentence):
-		# go through set of sentences and return tags
-		
-		#create the tokens list and run the algorithm to get the cache
-		tokens = []
-		sentence_cache = self.bestScore(sentence)
-
-		tokens.append(END)
-
-		#we know what tags we are going to start at and where we will begin extracting from the cache
-		tip1 = END
-		ti = END
-		tim1 = END
-		ip1 = len(sentence) + 1
+########################################################
+	# go through set of sentences and return tags
+	########################################################
+	def getTagPredictionsLR(self, sentence, cache):
+		# create the tags list and run the algorithm to get the cache
+		# working from the back to the front of the sentence
+		tags = []
+		ti = 'end'
+		tim1 = 'end'
+		i = len(sentence) + 1
 
 		#loop through all indices of the cache until we reach the start
-		while cache.has_key(ip1, (tim1, ti, tip1)):
-			(maxVal, maxTag) = cache[ip1, (tim1, ti, tip1)]
-			tokens.append(maxTag)
+		# appends tags to list in reverse order
+		while cache.has_key((i, tim1, ti, tip1)):
+			(maxVal, maxTag) = cache[(i, tim1, ti, tip1)]
+			tags.append(maxTag)
 			tip1 = ti
 			ti = tim1
 			tim1 = maxTag
-			ip1 = ip1 - 1
+			i = i - 1
 
-		#returns in reverse order.
-		return tokens
+		# reverse order so the list is from start of sentence to finish
+		# and remove the two 'start' tags at the front
+		tags.reverse()
+		tags.pop(0)
+		tags.pop(0)
+		#put the tag predictions into the main word feature_vector for analysis
+#		import pdb; pdb.set_trace()
+		sentence['tag_prediction'] = tags
+		if 'tag_prediction' not in self.word_features.columns.values:
+			print "Could NOT find tag_prediction column"
+			self.word_features['tag_prediction'] = None
+		for i in range(len(sentence)):
+			self.word_features['tag_prediction'].ix[sentence.ix[i]['index']] = sentence['tag_prediction'].ix[i]
 
 
-	def bestScoreBi(self, sentence):
+		return tags
+
+	def bestScoreLR(self, sentence):
 		#for each sentence best score is called, and then it makes this cache
 		#the cache stores values for each of the parameters given and can then be used to determine the tokens
 		cache = {}
 
 		#let n equal the last index in the list
 		n = len(sentence) - 1
-		self.bestScoreSubBi(n+2, (END,END,END), sentence, cache)
+		self.bestScoreSubL(n+2, ('end','end','end'), sentence, cache)
 		
 		return cache
 
 
-	def bestScoreSubBi(self, ip1, (tim1, ti, tip1) , sentence, cache):
-		#takes a cache from best score and adds return values and tags to it
+	def bestScoreSubLR(self, i, (tim1, ti, tip1) , sentence, cache):
 
-		if cache.has_key(ip1, (tim1, ti, tip1)):
-			return cache[ip1, (tim1, ti, tip1)]
-		
-		i = ip1 - 1
+		#takes a cache from best score and adds return values and tags to it
+		if cache.has_key((i, tim1, ti, tip1)):
+			(maxVal, maxTag) = cache[(i, tim1, ti, tip1)]
+			return maxVal
+
+		#print i, ti
 
 		#left boundry case
 		if (i == -1):
-			if ((tim1, ti, tip1)==('START','START','START')):
-				return 1
-			else:
+			if ((tim1, ti)==('start','start')):
 				return 0
+			else:
+				return NEGINF
 
-
-		#get the word at index i calculate conditional probability
-		w_i = sentence[i]
-		probTiGiven = self.getConditionalProb(w_i, tim1, ti, tip1) #will be conditional probability of Ti given features P(ti|tim1,tip1,wi)
+		#calculate conditional probability
+		if ti == 'end':		#right boundary case
+			probTiGiven = 0
+		else:
+			probTiGiven = self.getConditionalProb(sentence.ix[i], ti) #will be conditional probability of Ti given features P(ti|tim1,tip1,wi)
 
 		#recursive case, loop through all tags, find the tag and val with the maximum likelihood
-		maxVal = 0
-		for tag in self.tag_set:
-			tim2 = tag
-			maxValNew = max(bestScoreSubBi(i, (tim2, tim1, ti), sentence, cache)*probTiGiven, maxVal)
-			if (maxValNew != maxVal):
-				maxTag = tag
-			maxVal = maxValNew
+		maxVal = NEGINF
+		maxTag = None
+		#Left Boundary: Only check 'start' tag before index 0
+		if i <= 1:
+			tim2 = 'start'
+			maxTag = 'start'
+			maxVal = self.bestScoreSubL(i-1, (tim2, tim1, ti), sentence, cache) + probTiGiven
+		else:
+			if tim1 in self.tag_set:
+				for tag in self.tag_set[tim1]:
+					tim2 = tag
+					maxValNew = max(self.bestScoreSubL(i-1, (tim2, tim1, ti), sentence, cache) + probTiGiven, maxVal)
+					if (maxValNew > maxVal):
+						maxTag = tag
+					maxVal = maxValNew
 
 		#add to the cache then return the max val
-		cache[ip1,(tim1, ti, tip1)] = (maxVal, maxTag)
-		return (maxVal, maxTag)
+		cache[(i, tim1, ti, tip1)] = (maxVal, maxTag)
+		return maxVal
 
 
 	########################################################
@@ -244,10 +271,12 @@ class POSTagger:
 		tags.pop(0)
 		#put the tag predictions into the main word feature_vector for analysis
 		sentence['tag_prediction'] = tags
+#		import pdb; pdb.set_trace()
 		if 'tag_prediction' not in self.word_features.columns.values:
+			print "Could NOT find tag_prediction column"
 			self.word_features['tag_prediction'] = None
 		for i in range(len(sentence)):
-			self.word_features.ix[sentence.ix[i]['index']]['tag_prediction'] = sentence.ix[i]['tag_prediction']
+			self.word_features[sentence.ix[i,'index'],'tag_prediction'] = sentence.ix[i, 'tag_prediction']
 
 
 		return tags
