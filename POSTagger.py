@@ -9,6 +9,7 @@ import numpy as np
 import math
 import random
 import timeit
+import csv
 #from nltk.corpus import brown
 
 eps = 10e-50
@@ -17,7 +18,13 @@ NEGINF = -10e10
 class POSTagger:
     def __init__(self, tag_cutoff):
 	    #Extract features from all sentences
-        feature_list = []
+#        feature_list = []
+        feature_names = ['sentence_num', 't_i-2', 't_i-1', 't_i', 't_i+1', 't_i+2', 
+                        'w_i-2', 'w_i-1', 'w_i', 'w_i+1', 'w_i+2', 
+                        #'w_i-1,i', 'w_i,i+1', 'w_i,t_i-1', 'w_i,t_i+1', 
+                        't_i-2,i-1', 't_i-1,i+1', 't_i+1,i+2'] 
+        feature_writer = csv.writer(open('word_features.csv', 'wb'))
+        feature_writer.writerow(feature_names)
         i = 0;
         words_file = open('brown-words.txt', 'r')
         tags_file = open('brown-tags.txt', 'r')
@@ -46,15 +53,12 @@ class POSTagger:
                                       #(words[2], tags[1]), (words[2], tags[3]),      #lexical-word combo
                                       tags[0] + '_' + tags[1], tags[1] + '_' + tags[3], tags[3] + '_' + tags[4]]  #tag sequence
                     features = [i] + tags + words + extra_features
-                    feature_list.append(features)
-                print i
+                    feature_writer.writerow(features)
+#                    feature_list.append(features)
+#                print i
                 i = i + 1
 		#convert to DataFrame
-		feature_names = ['sentence_num', 't_i-2', 't_i-1', 't_i', 't_i+1', 't_i+2', 
-        				'w_i-2', 'w_i-1', 'w_i', 'w_i+1', 'w_i+2', 
-                		#'w_i-1,i', 'w_i,i+1', 'w_i,t_i-1', 'w_i,t_i+1', 
-                		't_i-2,i-1', 't_i-1,i+1', 't_i+1,i+2']
-		self.word_features = pd.DataFrame(feature_list, columns=feature_names)
+        self.word_features = pd.DataFrame.from_csv('word_features.csv', index_col=False)
 		#Calculate Tagset
 		frequency = pd.crosstab(rows=self.word_features['t_i'], cols=self.word_features['t_i+1'])
 		self.tag_set = {}
