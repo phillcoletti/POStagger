@@ -14,6 +14,7 @@ import random
 import timeit
 import csv
 import pickle
+import operator
 #from nltk.corpus import brown
 
 eps = 10e-50
@@ -205,6 +206,8 @@ class POSTagger:
             elif self.directionality is "R":
                 cache = self.bestScoreR(sentence)
                 tags = self.getTagPredictionsR(sentence, cache)
+            elif self.directionality is "None":
+                tags = self.getTagPredictionsW(sentence)
             else:
                 self.log("Directionality %s invalid" % self.directionality)
                 sys.exit(1)
@@ -246,6 +249,26 @@ class POSTagger:
                 conditionalProbVal = conditionalProbVal + self.log_prior[t_i]	
 
         return conditionalProbVal
+
+
+    def getTagPredictionsW(self, sentence):
+#        import pdb; pdb.set_trace()
+        tags = []
+        for i in range(len(sentence)):
+            probs = []
+            tagset = self.word_features['t_i'].unique()
+            for ti in tagset:
+                probs.append(self.getConditionalProb(sentence.ix[i], ti)) #will be conditional probability of Ti given features P(ti|tim1,tip1,wi)
+            index, value = max(enumerate(probs), key=operator.itemgetter(1))
+            tags.append(tagset[index])
+        sentence['tag_prediction'] = tags
+        if 'tag_prediction' not in self.word_features.columns.values:
+            print "Could NOT find tag_prediction column"
+            self.word_features['tag_prediction'] = None
+        for i in range(len(sentence)):
+            self.word_features['tag_prediction'].ix[sentence.ix[i]['index']] = sentence['tag_prediction'].ix[i]
+        return(tags)
+
 
 
     ########################################################
