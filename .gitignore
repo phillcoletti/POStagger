@@ -1,5 +1,6 @@
 word_features.csv
 *.swp
+*.py.o*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
