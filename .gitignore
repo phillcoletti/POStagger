@@ -1,4 +1,5 @@
 *.swp
+*.py.o*
 
 #anthill queue data
 *.py.o*
