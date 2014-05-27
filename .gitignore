@@ -1,5 +1,5 @@
-word_features.csv
 *.swp
+#anthill queue data
 *.py.o*
 
 # Byte-compiled / optimized / DLL files

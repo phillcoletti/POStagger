@@ -32,3 +32,43 @@ def evalTagger(N):
     tagger = POSTagger(simplify=True, tag_cutoff=1)
     tagger.randEvalL(N, feature_set, support_cutoff)
     return tagger
+
+def evalTaggerL_w1_s1():
+    feature_set = ['t_i-1', 'w_i']
+    tagger = POSTagger(1)
+    tagger.fixedEval('L',feature_set, 1)
+
+def evalTaggerL_w3_s1():
+    feature_set = ['t_i-1', 'w_i-1', 'w_i', 'w_i+1']
+    tagger = POSTagger(1)
+    tagger.fixedEval('L',feature_set, 1)
+
+def evalTaggerR_w3_s1():
+    feature_set = ['t_i+1', 'w_i-1', 'w_i', 'w_i+1']
+    tagger = POSTagger(1)
+    tagger.fixedEval('R',feature_set, 1)
+
+def evalTaggerR_w1_s1():
+    feature_set = ['t_i+1', 'w_i']
+    tagger = POSTagger(1)
+    tagger.fixedEval('R',feature_set, 1)
+
+def evalTaggerLR_w3_s1():
+    feature_set = ['t_i-1', 't_i+1', 'w_i-1', 'w_i', 'w_i+1']
+    tagger = POSTagger(1)
+    tagger.fixedEval('LR',feature_set, 1)
+
+def evalTaggerLR_w1_s1():
+    feature_set = ['t_i-1', 't_i+1', 'w_i']
+    tagger = POSTagger(1)
+    tagger.fixedEval('LR',feature_set, 1)
+
+def evalTaggerLRT_w3_s1():
+    feature_set = ['t_i-1,i+1', 't_i-1', 't_i+1', 'w_i-1', 'w_i', 'w_i+1']
+    tagger = POSTagger(1)
+    tagger.fixedEval('LR',feature_set, 1)
+
+def evalTaggerLRT_w1_s1():
+    feature_set = ['t_i-1,i+1','t_i-1', 't_i+1', 'w_i']
+    tagger = POSTagger(1)
+    tagger.fixedEval('LR',feature_set, 1)
