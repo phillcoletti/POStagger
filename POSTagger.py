@@ -255,7 +255,7 @@ class POSTagger:
 
 
     def getTagPredictionsW(self, sentence):
-#        import pdb; pdb.set_trace()
+        import pdb; pdb.set_trace()
         tags = []
         for i in range(len(sentence)):
             probs = []
