@@ -1,0 +1,1501 @@
+Sentence 30922: 0.857143
+35.553995 s avg for 14 words
+Accuracy on 1 sentences: 0.857143
+Sentence 49868: 1.000000
+35.442273 s avg for 15 words
+Accuracy on 2 sentences: 0.931034
+Sentence 23406: 1.000000
+33.163717 s avg for 21 words
+Accuracy on 3 sentences: 0.960000
+Sentence 19918: 0.977778
+36.408752 s avg for 45 words
+Accuracy on 4 sentences: 0.968421
+Sentence 2180: 0.928571
+32.867095 s avg for 14 words
+Accuracy on 5 sentences: 0.963303
+Sentence 38449: 1.000000
+22.404512 s avg for 6 words
+Accuracy on 6 sentences: 0.965217
+Sentence 20537: 0.939394
+32.631080 s avg for 33 words
+Accuracy on 7 sentences: 0.959459
+Sentence 7247: 0.928571
+25.378377 s avg for 28 words
+Accuracy on 8 sentences: 0.954545
+Sentence 9659: 0.936170
+26.560211 s avg for 47 words
+Accuracy on 9 sentences: 0.950673
+Sentence 1740: 0.785714
+22.112808 s avg for 14 words
+Accuracy on 10 sentences: 0.940928
+Sentence 1414: 0.944444
+32.201080 s avg for 18 words
+Accuracy on 11 sentences: 0.941176
+Sentence 9147: 0.958333
+24.987058 s avg for 24 words
+Accuracy on 12 sentences: 0.942652
+Sentence 7006: 0.833333
+13.742604 s avg for 6 words
+Accuracy on 13 sentences: 0.940351
+Sentence 28502: 0.975610
+25.032730 s avg for 41 words
+Accuracy on 14 sentences: 0.944785
+Sentence 17798: 0.900000
+25.390203 s avg for 20 words
+Accuracy on 15 sentences: 0.942197
+Sentence 15987: 0.937500
+22.585790 s avg for 32 words
+Accuracy on 16 sentences: 0.941799
+Sentence 19723: 1.000000
+21.515083 s avg for 29 words
+Accuracy on 17 sentences: 0.945946
+Sentence 26512: 1.000000
+22.169231 s avg for 25 words
+Accuracy on 18 sentences: 0.949074
+Sentence 41796: 0.967742
+21.233353 s avg for 31 words
+Accuracy on 19 sentences: 0.950324
+Sentence 18557: 1.000000
+21.992401 s avg for 29 words
+Accuracy on 20 sentences: 0.953252
+Sentence 50497: 0.916667
+18.282452 s avg for 12 words
+Accuracy on 21 sentences: 0.952381
+Sentence 18186: 0.937500
+22.102936 s avg for 16 words
+Accuracy on 22 sentences: 0.951923
+Sentence 44624: 0.826087
+28.196057 s avg for 23 words
+Accuracy on 23 sentences: 0.946593
+Sentence 29453: 1.000000
+26.969748 s avg for 38 words
+Accuracy on 24 sentences: 0.950086
+Sentence 50906: 1.000000
+20.241122 s avg for 13 words
+Accuracy on 25 sentences: 0.951178
+Sentence 36245: 0.812500
+24.327825 s avg for 16 words
+Accuracy on 26 sentences: 0.947541
+Sentence 52550: 1.000000
+20.624763 s avg for 8 words
+Accuracy on 27 sentences: 0.948220
+Sentence 11102: 0.916667
+25.075941 s avg for 12 words
+Accuracy on 28 sentences: 0.947619
+Sentence 17717: 1.000000
+24.948547 s avg for 34 words
+Accuracy on 29 sentences: 0.950301
+Sentence 11142: 0.954545
+30.499508 s avg for 22 words
+Accuracy on 30 sentences: 0.950437
+Sentence 51550: 0.944444
+23.971243 s avg for 36 words
+Accuracy on 31 sentences: 0.950139
+Sentence 52428: 0.941176
+22.808746 s avg for 17 words
+Accuracy on 32 sentences: 0.949932
+Sentence 19: 0.500000
+1.255219 s avg for 2 words
+Accuracy on 33 sentences: 0.948718
+Sentence 1601: 1.000000
+25.010319 s avg for 11 words
+Accuracy on 34 sentences: 0.949468
+Sentence 42: 0.800000
+21.520386 s avg for 10 words
+Accuracy on 35 sentences: 0.947507
+Sentence 36608: 0.666667
+7.993459 s avg for 3 words
+Accuracy on 36 sentences: 0.946405
+Sentence 10512: 0.941176
+30.708713 s avg for 34 words
+Accuracy on 37 sentences: 0.946183
+Sentence 42117: 1.000000
+37.499759 s avg for 14 words
+Accuracy on 38 sentences: 0.947109
+Sentence 51093: 0.947368
+27.538149 s avg for 19 words
+Accuracy on 39 sentences: 0.947115
+Sentence 50000: 0.892857
+25.975699 s avg for 28 words
+Accuracy on 40 sentences: 0.945349
+Sentence 46240: 1.000000
+26.723974 s avg for 22 words
+Accuracy on 41 sentences: 0.946712
+Sentence 29993: 0.928571
+24.125301 s avg for 14 words
+Accuracy on 42 sentences: 0.946429
+Sentence 34853: 0.964286
+28.511357 s avg for 28 words
+Accuracy on 43 sentences: 0.946970
+Sentence 14484: 0.500000
+1.398367 s avg for 2 words
+Accuracy on 44 sentences: 0.946004
+Sentence 50926: 1.000000
+29.317529 s avg for 8 words
+Accuracy on 45 sentences: 0.946467
+Sentence 22801: 0.947368
+25.653487 s avg for 38 words
+Accuracy on 46 sentences: 0.946502
+Sentence 12126: 0.928571
+23.197138 s avg for 14 words
+Accuracy on 47 sentences: 0.946247
+Sentence 49132: 1.000000
+21.986812 s avg for 17 words
+Accuracy on 48 sentences: 0.947159
+Sentence 26547: 0.931034
+23.178006 s avg for 29 words
+Accuracy on 49 sentences: 0.946705
+Sentence 39518: 0.933333
+21.151757 s avg for 15 words
+Accuracy on 50 sentences: 0.946514
+Sentence 30955: 1.000000
+23.344770 s avg for 25 words
+Accuracy on 51 sentences: 0.947761
+Sentence 19035: 1.000000
+20.819769 s avg for 11 words
+Accuracy on 52 sentences: 0.948292
+Sentence 25594: 0.956522
+23.908454 s avg for 46 words
+Accuracy on 53 sentences: 0.948627
+Sentence 15518: 0.900000
+20.453530 s avg for 20 words
+Accuracy on 54 sentences: 0.947781
+Sentence 47435: 0.900000
+18.431961 s avg for 10 words
+Accuracy on 55 sentences: 0.947368
+Sentence 38223: 0.904762
+20.406903 s avg for 21 words
+Accuracy on 56 sentences: 0.946610
+Sentence 44856: 0.928571
+21.197720 s avg for 28 words
+Accuracy on 57 sentences: 0.946192
+Sentence 7801: 1.000000
+18.826852 s avg for 14 words
+Accuracy on 58 sentences: 0.946809
+Sentence 10685: 1.000000
+6.849116 s avg for 3 words
+Accuracy on 59 sentences: 0.946939
+Sentence 25043: 0.800000
+12.506156 s avg for 5 words
+Accuracy on 60 sentences: 0.946341
+Sentence 29361: 1.000000
+22.488573 s avg for 53 words
+Accuracy on 61 sentences: 0.948558
+Sentence 47553: 0.666667
+15.317631 s avg for 6 words
+Accuracy on 62 sentences: 0.947246
+Sentence 54688: 0.900000
+18.040092 s avg for 10 words
+Accuracy on 63 sentences: 0.946882
+Sentence 18507: 0.894737
+33.690097 s avg for 19 words
+Accuracy on 64 sentences: 0.946131
+Sentence 13602: 0.947368
+67.102376 s avg for 38 words
+Accuracy on 65 sentences: 0.946165
+Sentence 5323: 0.933333
+39.882762 s avg for 15 words
+Accuracy on 66 sentences: 0.946025
+Sentence 31367: 0.969697
+48.853213 s avg for 33 words
+Accuracy on 67 sentences: 0.946581
+Sentence 51471: 0.857143
+59.084567 s avg for 14 words
+Accuracy on 68 sentences: 0.945698
+Sentence 13320: 0.947368
+62.274041 s avg for 19 words
+Accuracy on 69 sentences: 0.945720
+Sentence 51391: 0.960000
+46.458848 s avg for 25 words
+Accuracy on 70 sentences: 0.945964
+Sentence 54529: 0.909091
+61.149464 s avg for 44 words
+Accuracy on 71 sentences: 0.944887
+Sentence 21408: 0.942857
+58.713815 s avg for 35 words
+Accuracy on 72 sentences: 0.944841
+Sentence 11874: 1.000000
+45.786649 s avg for 21 words
+Accuracy on 73 sentences: 0.945583
+Sentence 15669: 1.000000
+28.266849 s avg for 8 words
+Accuracy on 74 sentences: 0.945860
+Sentence 33593: 0.952381
+25.627321 s avg for 21 words
+Accuracy on 75 sentences: 0.945946
+Sentence 12150: 0.884615
+29.481272 s avg for 26 words
+Accuracy on 76 sentences: 0.944960
+Sentence 3049: 0.821429
+30.082514 s avg for 28 words
+Accuracy on 77 sentences: 0.942857
+Sentence 18171: 0.916667
+21.445787 s avg for 12 words
+Accuracy on 78 sentences: 0.942667
+Sentence 11987: 0.714286
+21.073814 s avg for 14 words
+Accuracy on 79 sentences: 0.940754
+Sentence 19236: 0.823529
+23.094128 s avg for 17 words
+Accuracy on 80 sentences: 0.939573
+Sentence 40358: 1.000000
+15.486369 s avg for 6 words
+Accuracy on 81 sentences: 0.939787
+Sentence 45954: 1.000000
+16.301137 s avg for 6 words
+Accuracy on 82 sentences: 0.940000
+Sentence 14342: 1.000000
+23.676705 s avg for 18 words
+Accuracy on 83 sentences: 0.940629
+Sentence 31363: 1.000000
+23.987738 s avg for 23 words
+Accuracy on 84 sentences: 0.941413
+Sentence 19962: 0.875000
+24.522781 s avg for 24 words
+Accuracy on 85 sentences: 0.940510
+Sentence 23132: 1.000000
+22.392503 s avg for 27 words
+Accuracy on 86 sentences: 0.941406
+Sentence 30664: 1.000000
+21.225945 s avg for 22 words
+Accuracy on 87 sentences: 0.942117
+Sentence 34819: 0.863636
+19.918650 s avg for 22 words
+Accuracy on 88 sentences: 0.941176
+Sentence 36216: 0.909091
+21.590142 s avg for 44 words
+Accuracy on 89 sentences: 0.940426
+Sentence 39454: 0.903226
+22.932245 s avg for 31 words
+Accuracy on 90 sentences: 0.939822
+Sentence 13514: 1.000000
+20.333186 s avg for 18 words
+Accuracy on 91 sentences: 0.940384
+Sentence 31223: 0.933333
+20.185969 s avg for 15 words
+Accuracy on 92 sentences: 0.940329
+Sentence 7330: 0.974359
+21.544204 s avg for 39 words
+Accuracy on 93 sentences: 0.940998
+Sentence 13895: 1.000000
+21.422786 s avg for 26 words
+Accuracy on 94 sentences: 0.941762
+Sentence 45329: 1.000000
+13.925645 s avg for 6 words
+Accuracy on 95 sentences: 0.941935
+Sentence 51176: 0.975000
+20.602929 s avg for 40 words
+Accuracy on 96 sentences: 0.942579
+Sentence 7664: 1.000000
+18.348657 s avg for 11 words
+Accuracy on 97 sentences: 0.942885
+Sentence 33787: 0.923077
+18.112846 s avg for 13 words
+Accuracy on 98 sentences: 0.942761
+Sentence 20146: 0.944444
+22.078186 s avg for 36 words
+Accuracy on 99 sentences: 0.942790
+Sentence 25335: 1.000000
+18.962820 s avg for 9 words
+Accuracy on 100 sentences: 0.943032
+Sentence 20916: 1.000000
+12.900329 s avg for 6 words
+Accuracy on 101 sentences: 0.943192
+Sentence 25582: 0.933333
+21.634083 s avg for 45 words
+Accuracy on 102 sentences: 0.942989
+Sentence 29560: 1.000000
+10.598063 s avg for 4 words
+Accuracy on 103 sentences: 0.943093
+Sentence 24835: 1.000000
+22.226483 s avg for 30 words
+Accuracy on 104 sentences: 0.943866
+Sentence 883: 0.842105
+21.079338 s avg for 19 words
+Accuracy on 105 sentences: 0.942998
+Sentence 54950: 0.916667
+20.674293 s avg for 12 words
+Accuracy on 106 sentences: 0.942857
+Sentence 45030: 1.000000
+14.586490 s avg for 6 words
+Accuracy on 107 sentences: 0.943010
+Sentence 10346: 0.942857
+22.587908 s avg for 35 words
+Accuracy on 108 sentences: 0.943007
+Sentence 26128: 1.000000
+24.093886 s avg for 28 words
+Accuracy on 109 sentences: 0.943699
+Sentence 53337: 0.818182
+20.570355 s avg for 11 words
+Accuracy on 110 sentences: 0.943103
+Sentence 8471: 0.857143
+16.432882 s avg for 7 words
+Accuracy on 111 sentences: 0.942845
+Sentence 16380: 0.956522
+40.574950 s avg for 46 words
+Accuracy on 112 sentences: 0.943110
+Sentence 18720: 0.920000
+27.725044 s avg for 25 words
+Accuracy on 113 sentences: 0.942869
+Sentence 42985: 1.000000
+19.988818 s avg for 9 words
+Accuracy on 114 sentences: 0.943083
+Sentence 20923: 1.000000
+29.545469 s avg for 28 words
+Accuracy on 115 sentences: 0.943737
+Sentence 45957: 1.000000
+9.304767 s avg for 4 words
+Accuracy on 116 sentences: 0.943829
+Sentence 24223: 1.000000
+29.123289 s avg for 9 words
+Accuracy on 117 sentences: 0.944036
+Sentence 23745: 0.882353
+32.496827 s avg for 85 words
+Accuracy on 118 sentences: 0.941966
+Sentence 42403: 1.000000
+1.109926 s avg for 2 words
+Accuracy on 119 sentences: 0.942012
+Sentence 9923: 0.948276
+37.577100 s avg for 58 words
+Accuracy on 120 sentences: 0.942152
+Sentence 51769: 0.921053
+27.949449 s avg for 38 words
+Accuracy on 121 sentences: 0.941847
+Sentence 8142: 0.794872
+40.136048 s avg for 39 words
+Accuracy on 122 sentences: 0.939700
+Sentence 51823: 0.882353
+20.629028 s avg for 17 words
+Accuracy on 123 sentences: 0.939338
+Sentence 40306: 0.850000
+31.663547 s avg for 20 words
+Accuracy on 124 sentences: 0.938678
+Sentence 26859: 0.937500
+21.769355 s avg for 16 words
+Accuracy on 125 sentences: 0.938671
+Sentence 45953: 0.833333
+16.450024 s avg for 6 words
+Accuracy on 126 sentences: 0.938439
+Sentence 697: 0.844444
+36.569765 s avg for 45 words
+Accuracy on 127 sentences: 0.936914
+Sentence 23215: 0.897436
+38.321742 s avg for 39 words
+Accuracy on 128 sentences: 0.936367
+Sentence 935: 0.947368
+22.485321 s avg for 19 words
+Accuracy on 129 sentences: 0.936441
+Sentence 18576: 0.888889
+31.144590 s avg for 36 words
+Accuracy on 130 sentences: 0.935844
+Sentence 23058: 0.925926
+31.285079 s avg for 27 words
+Accuracy on 131 sentences: 0.935751
+Sentence 23019: 1.000000
+21.622199 s avg for 19 words
+Accuracy on 132 sentences: 0.936170
+Sentence 46534: 1.000000
+22.398063 s avg for 14 words
+Accuracy on 133 sentences: 0.936475
+Sentence 49274: 1.000000
+24.121717 s avg for 11 words
+Accuracy on 134 sentences: 0.936713
+Sentence 38481: 1.000000
+19.072006 s avg for 9 words
+Accuracy on 135 sentences: 0.936906
+Sentence 41885: 1.000000
+23.414478 s avg for 28 words
+Accuracy on 136 sentences: 0.937500
+Sentence 43884: 1.000000
+19.383973 s avg for 10 words
+Accuracy on 137 sentences: 0.937709
+Sentence 55040: 1.000000
+18.138424 s avg for 9 words
+Accuracy on 138 sentences: 0.937896
+Sentence 52866: 0.916667
+19.513758 s avg for 12 words
+Accuracy on 139 sentences: 0.937812
+Sentence 36311: 0.833333
+22.049543 s avg for 18 words
+Accuracy on 140 sentences: 0.937190
+Sentence 48498: 0.833333
+23.019495 s avg for 12 words
+Accuracy on 141 sentences: 0.936780
+Sentence 30677: 0.969697
+24.681108 s avg for 33 words
+Accuracy on 142 sentences: 0.937134
+Sentence 9375: 0.937500
+21.525579 s avg for 16 words
+Accuracy on 143 sentences: 0.937135
+Sentence 31893: 0.933333
+21.072144 s avg for 15 words
+Accuracy on 144 sentences: 0.937117
+Sentence 56630: 1.000000
+12.587527 s avg for 5 words
+Accuracy on 145 sentences: 0.937218
+Sentence 17622: 1.000000
+26.674059 s avg for 14 words
+Accuracy on 146 sentences: 0.937500
+Sentence 40081: 0.846154
+25.965513 s avg for 26 words
+Accuracy on 147 sentences: 0.936745
+Sentence 14661: 1.000000
+6.444188 s avg for 3 words
+Accuracy on 148 sentences: 0.936805
+Sentence 43806: 1.000000
+12.477376 s avg for 4 words
+Accuracy on 149 sentences: 0.936886
+Sentence 4139: 0.928571
+20.523056 s avg for 14 words
+Accuracy on 150 sentences: 0.936849
+Sentence 14218: 0.928571
+26.640505 s avg for 14 words
+Accuracy on 151 sentences: 0.936812
+Sentence 18634: 0.916667
+21.048438 s avg for 12 words
+Accuracy on 152 sentences: 0.936737
+Sentence 8012: 1.000000
+19.954149 s avg for 11 words
+Accuracy on 153 sentences: 0.936954
+Sentence 3905: 1.000000
+26.304169 s avg for 22 words
+Accuracy on 154 sentences: 0.937384
+Sentence 49838: 0.916667
+19.020175 s avg for 12 words
+Accuracy on 155 sentences: 0.937307
+Sentence 23151: 0.944444
+21.055122 s avg for 18 words
+Accuracy on 156 sentences: 0.937346
+Sentence 32159: 0.925926
+29.503169 s avg for 54 words
+Accuracy on 157 sentences: 0.937160
+Sentence 45333: 1.000000
+13.473251 s avg for 5 words
+Accuracy on 158 sentences: 0.937255
+Sentence 18295: 1.000000
+31.709918 s avg for 11 words
+Accuracy on 159 sentences: 0.937462
+Sentence 3650: 0.800000
+14.992916 s avg for 5 words
+Accuracy on 160 sentences: 0.937256
+Sentence 32658: 1.000000
+17.891705 s avg for 9 words
+Accuracy on 161 sentences: 0.937425
+Sentence 29631: 0.941176
+30.467669 s avg for 51 words
+Accuracy on 162 sentences: 0.937482
+Sentence 19831: 0.833333
+22.348903 s avg for 18 words
+Accuracy on 163 sentences: 0.936932
+Sentence 54204: 0.928571
+19.867373 s avg for 14 words
+Accuracy on 164 sentences: 0.936897
+Sentence 4575: 0.846154
+20.314744 s avg for 13 words
+Accuracy on 165 sentences: 0.936554
+Sentence 39069: 1.000000
+12.732665 s avg for 5 words
+Accuracy on 166 sentences: 0.936646
+Sentence 55337: 0.857143
+20.447527 s avg for 14 words
+Accuracy on 167 sentences: 0.936324
+Sentence 39833: 1.000000
+19.480535 s avg for 18 words
+Accuracy on 168 sentences: 0.936654
+Sentence 17879: 1.000000
+28.029806 s avg for 21 words
+Accuracy on 169 sentences: 0.937035
+Sentence 28743: 1.000000
+17.162245 s avg for 7 words
+Accuracy on 170 sentences: 0.937161
+Sentence 45770: 1.000000
+21.251695 s avg for 10 words
+Accuracy on 171 sentences: 0.937340
+Sentence 53134: 0.924528
+31.323290 s avg for 53 words
+Accuracy on 172 sentences: 0.937149
+Sentence 9113: 1.000000
+20.916264 s avg for 17 words
+Accuracy on 173 sentences: 0.937448
+Sentence 51623: 1.000000
+30.246691 s avg for 27 words
+Accuracy on 174 sentences: 0.937916
+Sentence 8648: 1.000000
+21.003807 s avg for 16 words
+Accuracy on 175 sentences: 0.938190
+Sentence 10773: 0.666667
+6.913963 s avg for 3 words
+Accuracy on 176 sentences: 0.937965
+Sentence 18266: 0.916667
+26.644015 s avg for 24 words
+Accuracy on 177 sentences: 0.937825
+Sentence 22786: 0.923077
+35.081087 s avg for 26 words
+Accuracy on 178 sentences: 0.937721
+Sentence 13013: 0.875000
+22.772764 s avg for 24 words
+Accuracy on 179 sentences: 0.937314
+Sentence 22702: 1.000000
+19.869508 s avg for 12 words
+Accuracy on 180 sentences: 0.937517
+Sentence 4594: 1.000000
+25.878681 s avg for 11 words
+Accuracy on 181 sentences: 0.937701
+Sentence 28992: 0.906250
+30.635575 s avg for 32 words
+Accuracy on 182 sentences: 0.937433
+Sentence 14982: 0.903226
+27.311474 s avg for 31 words
+Accuracy on 183 sentences: 0.937153
+Sentence 8940: 0.956522
+22.952747 s avg for 23 words
+Accuracy on 184 sentences: 0.937270
+Sentence 43827: 0.843750
+23.802719 s avg for 32 words
+Accuracy on 185 sentences: 0.936491
+Sentence 40701: 0.914286
+31.282539 s avg for 35 words
+Accuracy on 186 sentences: 0.936291
+Sentence 48476: 0.928571
+24.855557 s avg for 14 words
+Accuracy on 187 sentences: 0.936263
+Sentence 7424: 1.000000
+20.556253 s avg for 10 words
+Accuracy on 188 sentences: 0.936427
+Sentence 46906: 1.000000
+30.858141 s avg for 27 words
+Accuracy on 189 sentences: 0.936864
+Sentence 37697: 0.975000
+32.608228 s avg for 40 words
+Accuracy on 190 sentences: 0.937248
+Sentence 671: 0.916667
+34.209795 s avg for 24 words
+Accuracy on 191 sentences: 0.937124
+Sentence 19265: 0.894737
+41.560542 s avg for 19 words
+Accuracy on 192 sentences: 0.936923
+Sentence 2522: 0.750000
+13.179527 s avg for 4 words
+Accuracy on 193 sentences: 0.936737
+Sentence 18001: 0.761905
+23.686884 s avg for 21 words
+Accuracy on 194 sentences: 0.935828
+Sentence 71: 0.900000
+25.177415 s avg for 30 words
+Accuracy on 195 sentences: 0.935563
+Sentence 27635: 1.000000
+22.951843 s avg for 28 words
+Accuracy on 196 sentences: 0.936004
+Sentence 53977: 0.888889
+18.367667 s avg for 9 words
+Accuracy on 197 sentences: 0.935901
+Sentence 35131: 0.904762
+34.568944 s avg for 42 words
+Accuracy on 198 sentences: 0.935585
+Sentence 12733: 0.818182
+20.833344 s avg for 11 words
+Accuracy on 199 sentences: 0.935274
+Sentence 25052: 1.000000
+21.273341 s avg for 11 words
+Accuracy on 200 sentences: 0.935445
+Sentence 2224: 0.971429
+31.847039 s avg for 35 words
+Accuracy on 201 sentences: 0.935745
+Sentence 49340: 1.000000
+19.951052 s avg for 16 words
+Accuracy on 202 sentences: 0.935989
+Sentence 21783: 0.965517
+25.407109 s avg for 29 words
+Accuracy on 203 sentences: 0.936190
+Sentence 52403: 1.000000
+26.310236 s avg for 20 words
+Accuracy on 204 sentences: 0.936489
+Sentence 22646: 0.850000
+22.193488 s avg for 20 words
+Accuracy on 205 sentences: 0.936086
+Sentence 20991: 0.903226
+26.286623 s avg for 62 words
+Accuracy on 206 sentences: 0.935617
+Sentence 43956: 1.000000
+24.307137 s avg for 17 words
+Accuracy on 207 sentences: 0.935868
+Sentence 19818: 0.875000
+17.105799 s avg for 8 words
+Accuracy on 208 sentences: 0.935757
+Sentence 47057: 1.000000
+27.215818 s avg for 11 words
+Accuracy on 209 sentences: 0.935918
+Sentence 50847: 0.875000
+20.509970 s avg for 16 words
+Accuracy on 210 sentences: 0.935696
+Sentence 32689: 0.950000
+24.486796 s avg for 20 words
+Accuracy on 211 sentences: 0.935761
+Sentence 44242: 1.000000
+10.917710 s avg for 4 words
+Accuracy on 212 sentences: 0.935819
+Sentence 43231: 1.000000
+26.659019 s avg for 13 words
+Accuracy on 213 sentences: 0.936007
+Sentence 22445: 1.000000
+18.430338 s avg for 9 words
+Accuracy on 214 sentences: 0.936137
+Sentence 57332: 0.000000
+0.000000 s avg for 0 words
+Accuracy on 215 sentences: 0.936137
+Sentence 47894: 0.809524
+21.774457 s avg for 21 words
+Accuracy on 216 sentences: 0.935542
+Sentence 539: 0.935484
+25.971148 s avg for 31 words
+Accuracy on 217 sentences: 0.935541
+Sentence 14298: 0.909091
+24.262247 s avg for 22 words
+Accuracy on 218 sentences: 0.935413
+Sentence 295: 1.000000
+24.322980 s avg for 31 words
+Accuracy on 219 sentences: 0.935852
+Sentence 49077: 0.800000
+11.959326 s avg for 5 words
+Accuracy on 220 sentences: 0.935703
+Sentence 53611: 0.500000
+0.707126 s avg for 2 words
+Accuracy on 221 sentences: 0.935512
+Sentence 7153: 1.000000
+0.755697 s avg for 2 words
+Accuracy on 222 sentences: 0.935540
+Sentence 5200: 0.964286
+25.796859 s avg for 28 words
+Accuracy on 223 sentences: 0.935716
+Sentence 6285: 1.000000
+10.951904 s avg for 4 words
+Accuracy on 224 sentences: 0.935772
+Sentence 14823: 1.000000
+17.706612 s avg for 11 words
+Accuracy on 225 sentences: 0.935925
+Sentence 9745: 0.923077
+21.534226 s avg for 13 words
+Accuracy on 226 sentences: 0.935889
+Sentence 56602: 0.814815
+22.721571 s avg for 27 words
+Accuracy on 227 sentences: 0.935185
+Sentence 20811: 0.916667
+19.871624 s avg for 12 words
+Accuracy on 228 sentences: 0.935137
+Sentence 7667: 0.931034
+23.792945 s avg for 29 words
+Accuracy on 229 sentences: 0.935112
+Sentence 56688: 0.928571
+22.476204 s avg for 14 words
+Accuracy on 230 sentences: 0.935093
+Sentence 23188: 0.954545
+23.190183 s avg for 22 words
+Accuracy on 231 sentences: 0.935183
+Sentence 14806: 1.000000
+20.869566 s avg for 16 words
+Accuracy on 232 sentences: 0.935402
+Sentence 51778: 0.966102
+24.832255 s avg for 59 words
+Accuracy on 233 sentences: 0.935780
+Sentence 36397: 1.000000
+25.935196 s avg for 22 words
+Accuracy on 234 sentences: 0.936073
+Sentence 56046: 0.916667
+23.734192 s avg for 24 words
+Accuracy on 235 sentences: 0.935977
+Sentence 30284: 0.882353
+22.224648 s avg for 17 words
+Accuracy on 236 sentences: 0.935789
+Sentence 1163: 0.923077
+23.577728 s avg for 13 words
+Accuracy on 237 sentences: 0.935755
+Sentence 32394: 1.000000
+21.819291 s avg for 16 words
+Accuracy on 238 sentences: 0.935966
+Sentence 12541: 0.800000
+20.941078 s avg for 15 words
+Accuracy on 239 sentences: 0.935550
+Sentence 6059: 1.000000
+18.452359 s avg for 9 words
+Accuracy on 240 sentences: 0.935668
+Sentence 20775: 0.833333
+23.388945 s avg for 30 words
+Accuracy on 241 sentences: 0.935047
+Sentence 30114: 0.954545
+28.816921 s avg for 22 words
+Accuracy on 242 sentences: 0.935133
+Sentence 53528: 1.000000
+22.719382 s avg for 23 words
+Accuracy on 243 sentences: 0.935432
+Sentence 39633: 1.000000
+17.728737 s avg for 6 words
+Accuracy on 244 sentences: 0.935510
+Sentence 21273: 1.000000
+24.619546 s avg for 25 words
+Accuracy on 245 sentences: 0.935831
+Sentence 23315: 0.888889
+24.409628 s avg for 27 words
+Accuracy on 246 sentences: 0.935580
+Sentence 30827: 0.966667
+23.257519 s avg for 30 words
+Accuracy on 247 sentences: 0.935764
+Sentence 47805: 0.888889
+21.860160 s avg for 18 words
+Accuracy on 248 sentences: 0.935598
+Sentence 11946: 1.000000
+19.147460 s avg for 10 words
+Accuracy on 249 sentences: 0.935724
+Sentence 13663: 0.878788
+26.499823 s avg for 33 words
+Accuracy on 250 sentences: 0.935358
+Sentence 34331: 1.000000
+23.876663 s avg for 20 words
+Accuracy on 251 sentences: 0.935609
+Sentence 19259: 0.909091
+25.453993 s avg for 33 words
+Accuracy on 252 sentences: 0.935440
+Sentence 28933: 1.000000
+11.519462 s avg for 4 words
+Accuracy on 253 sentences: 0.935490
+Sentence 52418: 0.972222
+26.802577 s avg for 36 words
+Accuracy on 254 sentences: 0.935743
+Sentence 23092: 1.000000
+10.989789 s avg for 4 words
+Accuracy on 255 sentences: 0.935792
+Sentence 25035: 0.875000
+20.236448 s avg for 8 words
+Accuracy on 256 sentences: 0.935699
+Sentence 34006: 0.862069
+25.108601 s avg for 29 words
+Accuracy on 257 sentences: 0.935294
+Sentence 15314: 1.000000
+10.378551 s avg for 4 words
+Accuracy on 258 sentences: 0.935343
+Sentence 5372: 1.000000
+20.267182 s avg for 9 words
+Accuracy on 259 sentences: 0.935453
+Sentence 11493: 0.750000
+26.296672 s avg for 16 words
+Accuracy on 260 sentences: 0.934893
+Sentence 29654: 0.931034
+24.703769 s avg for 29 words
+Accuracy on 261 sentences: 0.934872
+Sentence 44012: 1.000000
+22.846886 s avg for 18 words
+Accuracy on 262 sentences: 0.935092
+Sentence 13143: 0.727273
+19.712260 s avg for 11 words
+Accuracy on 263 sentences: 0.934665
+Sentence 39322: 0.700000
+21.648902 s avg for 10 words
+Accuracy on 264 sentences: 0.934228
+Sentence 11178: 0.956522
+24.631784 s avg for 23 words
+Accuracy on 265 sentences: 0.934323
+Sentence 11973: 0.900000
+19.935210 s avg for 10 words
+Accuracy on 266 sentences: 0.934259
+Sentence 34165: 1.000000
+22.638399 s avg for 10 words
+Accuracy on 267 sentences: 0.934381
+Sentence 18281: 0.864865
+30.631330 s avg for 37 words
+Accuracy on 268 sentences: 0.933909
+Sentence 11392: 0.857143
+27.127492 s avg for 21 words
+Accuracy on 269 sentences: 0.933614
+Sentence 20889: 0.955556
+23.625950 s avg for 45 words
+Accuracy on 270 sentences: 0.933793
+Sentence 37003: 0.960000
+23.842306 s avg for 25 words
+Accuracy on 271 sentences: 0.933911
+Sentence 9532: 1.000000
+19.891067 s avg for 14 words
+Accuracy on 272 sentences: 0.934078
+Sentence 18236: 0.954545
+21.911798 s avg for 22 words
+Accuracy on 273 sentences: 0.934159
+Sentence 22154: 0.923077
+20.001642 s avg for 13 words
+Accuracy on 274 sentences: 0.934133
+Sentence 20520: 0.962963
+23.770645 s avg for 27 words
+Accuracy on 275 sentences: 0.934271
+Sentence 9767: 0.857143
+17.794693 s avg for 7 words
+Accuracy on 276 sentences: 0.934175
+Sentence 42388: 1.000000
+16.028300 s avg for 7 words
+Accuracy on 277 sentences: 0.934257
+Sentence 14450: 1.000000
+22.293168 s avg for 15 words
+Accuracy on 278 sentences: 0.934432
+Sentence 17495: 0.923077
+24.012609 s avg for 26 words
+Accuracy on 279 sentences: 0.934380
+Sentence 34813: 1.000000
+21.370877 s avg for 16 words
+Accuracy on 280 sentences: 0.934565
+Sentence 50749: 0.833333
+17.222901 s avg for 6 words
+Accuracy on 281 sentences: 0.934458
+Sentence 23626: 1.000000
+14.749291 s avg for 6 words
+Accuracy on 282 sentences: 0.934527
+Sentence 458: 0.842105
+23.018122 s avg for 19 words
+Accuracy on 283 sentences: 0.934220
+Sentence 41457: 0.875000
+14.605180 s avg for 8 words
+Accuracy on 284 sentences: 0.934137
+Sentence 12086: 1.000000
+13.522608 s avg for 5 words
+Accuracy on 285 sentences: 0.934194
+Sentence 25296: 0.875000
+19.517091 s avg for 8 words
+Accuracy on 286 sentences: 0.934112
+Sentence 14671: 0.909091
+20.681212 s avg for 11 words
+Accuracy on 287 sentences: 0.934064
+Sentence 11464: 0.933333
+22.284300 s avg for 15 words
+Accuracy on 288 sentences: 0.934062
+Sentence 34474: 1.000000
+20.393590 s avg for 9 words
+Accuracy on 289 sentences: 0.934165
+Sentence 6136: 0.857143
+20.424490 s avg for 14 words
+Accuracy on 290 sentences: 0.933979
+Sentence 3331: 1.000000
+21.590547 s avg for 21 words
+Accuracy on 291 sentences: 0.934217
+Sentence 48716: 0.888889
+22.280086 s avg for 18 words
+Accuracy on 292 sentences: 0.934077
+Sentence 11661: 0.900000
+22.107399 s avg for 20 words
+Accuracy on 293 sentences: 0.933961
+Sentence 11043: 0.857143
+21.984085 s avg for 14 words
+Accuracy on 294 sentences: 0.933777
+Sentence 53742: 0.800000
+19.100504 s avg for 10 words
+Accuracy on 295 sentences: 0.933549
+Sentence 51291: 1.000000
+18.145173 s avg for 9 words
+Accuracy on 296 sentences: 0.933651
+Sentence 11467: 1.000000
+21.085176 s avg for 21 words
+Accuracy on 297 sentences: 0.933887
+Sentence 13204: 0.916667
+25.423695 s avg for 24 words
+Accuracy on 298 sentences: 0.933817
+Sentence 6111: 1.000000
+18.181868 s avg for 9 words
+Accuracy on 299 sentences: 0.933918
+Sentence 18121: 0.941176
+24.804844 s avg for 34 words
+Accuracy on 300 sentences: 0.933959
+Sentence 46538: 0.952381
+22.799624 s avg for 21 words
+Accuracy on 301 sentences: 0.934024
+Sentence 15880: 1.000000
+20.992854 s avg for 17 words
+Accuracy on 302 sentences: 0.934211
+Sentence 23542: 1.000000
+17.203778 s avg for 7 words
+Accuracy on 303 sentences: 0.934287
+Sentence 3039: 1.000000
+20.158269 s avg for 15 words
+Accuracy on 304 sentences: 0.934451
+Sentence 53614: 1.000000
+16.038308 s avg for 8 words
+Accuracy on 305 sentences: 0.934538
+Sentence 7469: 0.941176
+21.582983 s avg for 17 words
+Accuracy on 306 sentences: 0.934556
+Sentence 30824: 1.000000
+23.610610 s avg for 24 words
+Accuracy on 307 sentences: 0.934815
+Sentence 6630: 1.000000
+19.718916 s avg for 10 words
+Accuracy on 308 sentences: 0.934922
+Sentence 41135: 0.950000
+24.057732 s avg for 20 words
+Accuracy on 309 sentences: 0.934971
+Sentence 9813: 1.000000
+19.762303 s avg for 16 words
+Accuracy on 310 sentences: 0.935141
+Sentence 35500: 0.958333
+21.956962 s avg for 24 words
+Accuracy on 311 sentences: 0.935232
+Sentence 2903: 0.882353
+24.276270 s avg for 34 words
+Accuracy on 312 sentences: 0.934941
+Sentence 27868: 1.000000
+0.775797 s avg for 2 words
+Accuracy on 313 sentences: 0.934962
+Sentence 24844: 0.650000
+24.316781 s avg for 20 words
+Accuracy on 314 sentences: 0.934043
+Sentence 34115: 0.923077
+20.091332 s avg for 13 words
+Accuracy on 315 sentences: 0.934020
+Sentence 7124: 0.942857
+22.790233 s avg for 35 words
+Accuracy on 316 sentences: 0.934069
+Sentence 26058: 0.857143
+22.933706 s avg for 21 words
+Accuracy on 317 sentences: 0.933812
+Sentence 15490: 1.000000
+20.753752 s avg for 11 words
+Accuracy on 318 sentences: 0.933928
+Sentence 48720: 0.840000
+24.894121 s avg for 25 words
+Accuracy on 319 sentences: 0.933555
+Sentence 52081: 0.947368
+23.996607 s avg for 19 words
+Accuracy on 320 sentences: 0.933597
+Sentence 22980: 0.964286
+24.577532 s avg for 28 words
+Accuracy on 321 sentences: 0.933732
+Sentence 51181: 1.000000
+22.521120 s avg for 14 words
+Accuracy on 322 sentences: 0.933878
+Sentence 51355: 0.923077
+23.738247 s avg for 26 words
+Accuracy on 323 sentences: 0.933834
+Sentence 56175: 0.916667
+22.114544 s avg for 12 words
+Accuracy on 324 sentences: 0.933802
+Sentence 12297: 1.000000
+19.573523 s avg for 10 words
+Accuracy on 325 sentences: 0.933905
+Sentence 45486: 1.000000
+18.901139 s avg for 9 words
+Accuracy on 326 sentences: 0.933998
+Sentence 5340: 1.000000
+20.217028 s avg for 8 words
+Accuracy on 327 sentences: 0.934080
+Sentence 15670: 1.000000
+19.318137 s avg for 9 words
+Accuracy on 328 sentences: 0.934172
+Sentence 8826: 0.916667
+23.698020 s avg for 24 words
+Accuracy on 329 sentences: 0.934107
+Sentence 56456: 0.933333
+22.096261 s avg for 15 words
+Accuracy on 330 sentences: 0.934105
+Sentence 12490: 1.000000
+16.327879 s avg for 7 words
+Accuracy on 331 sentences: 0.934176
+Sentence 45967: 0.800000
+17.989601 s avg for 10 words
+Accuracy on 332 sentences: 0.933970
+Sentence 21676: 0.875000
+23.522705 s avg for 24 words
+Accuracy on 333 sentences: 0.933752
+Sentence 54046: 0.666667
+8.609080 s avg for 3 words
+Accuracy on 334 sentences: 0.933630
+Sentence 14666: 0.945946
+25.548605 s avg for 37 words
+Accuracy on 335 sentences: 0.933699
+Sentence 37908: 0.945946
+26.248825 s avg for 37 words
+Accuracy on 336 sentences: 0.933768
+Sentence 56567: 0.948718
+23.596659 s avg for 39 words
+Accuracy on 337 sentences: 0.933856
+Sentence 589: 0.857143
+20.490164 s avg for 7 words
+Accuracy on 338 sentences: 0.933775
+Sentence 234: 0.911765
+22.540862 s avg for 34 words
+Accuracy on 339 sentences: 0.933663
+Sentence 37591: 0.885714
+22.806314 s avg for 35 words
+Accuracy on 340 sentences: 0.933413
+Sentence 35597: 1.000000
+21.342703 s avg for 13 words
+Accuracy on 341 sentences: 0.933541
+Sentence 26101: 0.933333
+23.826096 s avg for 15 words
+Accuracy on 342 sentences: 0.933541
+Sentence 13469: 1.000000
+20.871144 s avg for 10 words
+Accuracy on 343 sentences: 0.933639
+Sentence 18080: 0.694444
+27.097097 s avg for 36 words
+Accuracy on 344 sentences: 0.932371
+Sentence 24562: 1.000000
+13.632986 s avg for 4 words
+Accuracy on 345 sentences: 0.932411
+Sentence 41303: 0.882353
+22.546511 s avg for 17 words
+Accuracy on 346 sentences: 0.932286
+Sentence 43022: 0.909091
+21.408773 s avg for 11 words
+Accuracy on 347 sentences: 0.932248
+Sentence 51865: 0.866667
+20.170783 s avg for 15 words
+Accuracy on 348 sentences: 0.932104
+Sentence 6744: 0.916667
+20.012095 s avg for 12 words
+Accuracy on 349 sentences: 0.932077
+Sentence 30707: 1.000000
+18.513406 s avg for 8 words
+Accuracy on 350 sentences: 0.932156
+Sentence 8841: 1.000000
+15.402925 s avg for 6 words
+Accuracy on 351 sentences: 0.932216
+Sentence 547: 0.894737
+21.802233 s avg for 19 words
+Accuracy on 352 sentences: 0.932112
+Sentence 33202: 0.956522
+23.005816 s avg for 23 words
+Accuracy on 353 sentences: 0.932194
+Sentence 43074: 0.900000
+23.202471 s avg for 20 words
+Accuracy on 354 sentences: 0.932101
+Sentence 14566: 0.877551
+26.024286 s avg for 49 words
+Accuracy on 355 sentences: 0.931717
+Sentence 52350: 1.000000
+20.507752 s avg for 14 words
+Accuracy on 356 sentences: 0.931854
+Sentence 5008: 1.000000
+23.820659 s avg for 20 words
+Accuracy on 357 sentences: 0.932049
+Sentence 5781: 0.972222
+25.008559 s avg for 36 words
+Accuracy on 358 sentences: 0.932254
+Sentence 54247: 1.000000
+20.609150 s avg for 8 words
+Accuracy on 359 sentences: 0.932331
+Sentence 52820: 0.875000
+26.850153 s avg for 32 words
+Accuracy on 360 sentences: 0.932072
+Sentence 15234: 0.875000
+17.900733 s avg for 8 words
+Accuracy on 361 sentences: 0.932007
+Sentence 41781: 1.000000
+20.692324 s avg for 12 words
+Accuracy on 362 sentences: 0.932122
+Sentence 28649: 0.894737
+21.183700 s avg for 19 words
+Accuracy on 363 sentences: 0.932022
+Sentence 23913: 1.000000
+23.868040 s avg for 34 words
+Accuracy on 364 sentences: 0.932346
+Sentence 16846: 0.866667
+22.464837 s avg for 15 words
+Accuracy on 365 sentences: 0.932208
+Sentence 2608: 0.961538
+21.907082 s avg for 26 words
+Accuracy on 366 sentences: 0.932314
+Sentence 17501: 1.000000
+17.110242 s avg for 7 words
+Accuracy on 367 sentences: 0.932380
+Sentence 14108: 0.666667
+9.375380 s avg for 3 words
+Accuracy on 368 sentences: 0.932269
+Sentence 49591: 0.923077
+19.231672 s avg for 13 words
+Accuracy on 369 sentences: 0.932253
+Sentence 29914: 0.923077
+19.462035 s avg for 13 words
+Accuracy on 370 sentences: 0.932236
+Sentence 33032: 0.958333
+21.850478 s avg for 24 words
+Accuracy on 371 sentences: 0.932323
+Sentence 17671: 0.947368
+21.530874 s avg for 19 words
+Accuracy on 372 sentences: 0.932362
+Sentence 13278: 0.875000
+18.298397 s avg for 8 words
+Accuracy on 373 sentences: 0.932299
+Sentence 12859: 1.000000
+19.172628 s avg for 10 words
+Accuracy on 374 sentences: 0.932392
+Sentence 19617: 0.944444
+22.392907 s avg for 18 words
+Accuracy on 375 sentences: 0.932421
+Sentence 7841: 1.000000
+25.429282 s avg for 25 words
+Accuracy on 376 sentences: 0.932652
+Sentence 11543: 0.842105
+26.560406 s avg for 38 words
+Accuracy on 377 sentences: 0.932185
+Sentence 26321: 0.891892
+25.699773 s avg for 37 words
+Accuracy on 378 sentences: 0.931984
+Sentence 52547: 1.000000
+21.863088 s avg for 11 words
+Accuracy on 379 sentences: 0.932085
+Sentence 38226: 0.947368
+23.851949 s avg for 19 words
+Accuracy on 380 sentences: 0.932124
+Sentence 4905: 0.800000
+19.255190 s avg for 10 words
+Accuracy on 381 sentences: 0.931946
+Sentence 8668: 1.000000
+21.186389 s avg for 13 words
+Accuracy on 382 sentences: 0.932065
+Sentence 48592: 0.875000
+22.471546 s avg for 8 words
+Accuracy on 383 sentences: 0.932004
+Sentence 46300: 0.971429
+25.293753 s avg for 35 words
+Accuracy on 384 sentences: 0.932188
+Sentence 22476: 0.954545
+26.350958 s avg for 22 words
+Accuracy on 385 sentences: 0.932253
+Sentence 45532: 0.956522
+25.711512 s avg for 23 words
+Accuracy on 386 sentences: 0.932327
+Sentence 52139: 1.000000
+20.122806 s avg for 11 words
+Accuracy on 387 sentences: 0.932425
+Sentence 16243: 1.000000
+20.451529 s avg for 12 words
+Accuracy on 388 sentences: 0.932532
+Sentence 13205: 0.800000
+26.213588 s avg for 15 words
+Accuracy on 389 sentences: 0.932270
+Sentence 56917: 0.000000
+0.000000 s avg for 0 words
+Accuracy on 390 sentences: 0.932270
+Sentence 10111: 1.000000
+25.858852 s avg for 14 words
+Accuracy on 391 sentences: 0.932395
+Sentence 24400: 0.882353
+25.597279 s avg for 17 words
+Accuracy on 392 sentences: 0.932283
+Sentence 31013: 0.944444
+25.819245 s avg for 18 words
+Accuracy on 393 sentences: 0.932312
+Sentence 31210: 0.840000
+24.409640 s avg for 25 words
+Accuracy on 394 sentences: 0.932011
+Sentence 31681: 0.954545
+24.613535 s avg for 22 words
+Accuracy on 395 sentences: 0.932075
+Sentence 27411: 0.983607
+27.157634 s avg for 61 words
+Accuracy on 396 sentences: 0.932481
+Sentence 9318: 1.000000
+23.640432 s avg for 18 words
+Accuracy on 397 sentences: 0.932638
+Sentence 21409: 0.875000
+23.569300 s avg for 16 words
+Accuracy on 398 sentences: 0.932519
+Sentence 14790: 0.928571
+22.460416 s avg for 14 words
+Accuracy on 399 sentences: 0.932512
+Sentence 2168: 1.000000
+20.117758 s avg for 11 words
+Accuracy on 400 sentences: 0.932607
+Sentence 21141: 1.000000
+23.619855 s avg for 16 words
+Accuracy on 401 sentences: 0.932745
+Sentence 8162: 0.931034
+25.529933 s avg for 29 words
+Accuracy on 402 sentences: 0.932739
+Sentence 25254: 0.952381
+22.431330 s avg for 21 words
+Accuracy on 403 sentences: 0.932791
+Sentence 56995: 0.000000
+0.000000 s avg for 0 words
+Accuracy on 404 sentences: 0.932791
+Sentence 23506: 1.000000
+14.822801 s avg for 6 words
+Accuracy on 405 sentences: 0.932842
+Sentence 28090: 0.910714
+24.161562 s avg for 56 words
+Accuracy on 406 sentences: 0.932686
+Sentence 840: 0.500000
+0.956409 s avg for 2 words
+Accuracy on 407 sentences: 0.932577
+Sentence 9777: 0.920000
+25.527677 s avg for 50 words
+Accuracy on 408 sentences: 0.932498
+Sentence 29548: 0.920000
+25.515499 s avg for 25 words
+Accuracy on 409 sentences: 0.932459
+Sentence 18741: 0.884615
+22.863631 s avg for 26 words
+Accuracy on 410 sentences: 0.932305
+Sentence 54716: 0.928571
+22.147572 s avg for 14 words
+Accuracy on 411 sentences: 0.932298
+Sentence 47539: 1.000000
+22.629942 s avg for 10 words
+Accuracy on 412 sentences: 0.932382
+Sentence 45387: 1.000000
+19.538109 s avg for 10 words
+Accuracy on 413 sentences: 0.932466
+Sentence 8545: 0.900000
+23.347987 s avg for 20 words
+Accuracy on 414 sentences: 0.932386
+Sentence 25431: 0.914286
+24.072255 s avg for 35 words
+Accuracy on 415 sentences: 0.932308
+Sentence 42037: 0.967742
+23.077691 s avg for 31 words
+Accuracy on 416 sentences: 0.932442
+Sentence 8076: 1.000000
+21.241305 s avg for 17 words
+Accuracy on 417 sentences: 0.932583
+Sentence 19623: 1.000000
+22.131667 s avg for 34 words
+Accuracy on 418 sentences: 0.932862
+Sentence 10851: 1.000000
+24.443221 s avg for 16 words
+Accuracy on 419 sentences: 0.932993
+Sentence 17693: 1.000000
+22.046885 s avg for 20 words
+Accuracy on 420 sentences: 0.933155
+Sentence 16975: 1.000000
+21.154019 s avg for 12 words
+Accuracy on 421 sentences: 0.933253
+Sentence 28202: 1.000000
+7.947004 s avg for 3 words
+Accuracy on 422 sentences: 0.933277
+Sentence 37566: 0.944444
+22.686419 s avg for 18 words
+Accuracy on 423 sentences: 0.933301
+Sentence 53948: 1.000000
+21.153996 s avg for 27 words
+Accuracy on 424 sentences: 0.933518
+Sentence 45487: 0.956522
+23.541283 s avg for 23 words
+Accuracy on 425 sentences: 0.933582
+Sentence 849: 0.872340
+23.763368 s avg for 47 words
+Accuracy on 426 sentences: 0.933238
+Sentence 41469: 0.857143
+15.263983 s avg for 7 words
+Accuracy on 427 sentences: 0.933174
+Sentence 38400: 1.000000
+21.979094 s avg for 17 words
+Accuracy on 428 sentences: 0.933310
+Sentence 13913: 0.896552
+21.542704 s avg for 29 words
+Accuracy on 429 sentences: 0.933183
+Sentence 14169: 0.892857
+23.094559 s avg for 28 words
+Accuracy on 430 sentences: 0.933049
+Sentence 22667: 0.777778
+21.035240 s avg for 9 words
+Accuracy on 431 sentences: 0.932884
+Sentence 9337: 0.916667
+24.490390 s avg for 36 words
+Accuracy on 432 sentences: 0.932816
+Sentence 1216: 0.952381
+22.416187 s avg for 21 words
+Accuracy on 433 sentences: 0.932864
+Sentence 49009: 0.947368
+22.452594 s avg for 19 words
+Accuracy on 434 sentences: 0.932896
+Sentence 56531: 0.894737
+21.472821 s avg for 19 words
+Accuracy on 435 sentences: 0.932811
+Sentence 34430: 0.941176
+21.712902 s avg for 17 words
+Accuracy on 436 sentences: 0.932828
+Sentence 10471: 0.933333
+18.997196 s avg for 15 words
+Accuracy on 437 sentences: 0.932829
+Sentence 4969: 0.913043
+22.326560 s avg for 23 words
+Accuracy on 438 sentences: 0.932776
+Sentence 48023: 0.863636
+21.565981 s avg for 22 words
+Accuracy on 439 sentences: 0.932600
+Sentence 12833: 0.777778
+23.573787 s avg for 18 words
+Accuracy on 440 sentences: 0.932278
+Sentence 34234: 0.926829
+24.007452 s avg for 41 words
+Accuracy on 441 sentences: 0.932252
+Sentence 52914: 1.000000
+23.023035 s avg for 26 words
+Accuracy on 442 sentences: 0.932454
+Sentence 20369: 0.918033
+23.721279 s avg for 61 words
+Accuracy on 443 sentences: 0.932354
+Sentence 15195: 0.888889
+18.188308 s avg for 9 words
+Accuracy on 444 sentences: 0.932309
+Sentence 54706: 0.933333
+21.771083 s avg for 15 words
+Accuracy on 445 sentences: 0.932311
+Sentence 42606: 1.000000
+23.167726 s avg for 21 words
+Accuracy on 446 sentences: 0.932472
+Sentence 46334: 0.833333
+16.644391 s avg for 6 words
+Accuracy on 447 sentences: 0.932405
+Sentence 5835: 0.961538
+22.338141 s avg for 26 words
+Accuracy on 448 sentences: 0.932490
+Sentence 30850: 0.916667
+23.265814 s avg for 24 words
+Accuracy on 449 sentences: 0.932448
+Sentence 43069: 1.000000
+16.095521 s avg for 8 words
+Accuracy on 450 sentences: 0.932508
+Sentence 15355: 0.911765
+25.487952 s avg for 34 words
+Accuracy on 451 sentences: 0.932429
+Sentence 49560: 0.857143
+15.723690 s avg for 7 words
+Accuracy on 452 sentences: 0.932370
+Sentence 3147: 0.777778
+22.189798 s avg for 18 words
+Accuracy on 453 sentences: 0.932059
+Sentence 11065: 0.812500
+25.395414 s avg for 32 words
+Accuracy on 454 sentences: 0.931633
+Sentence 28993: 0.882353
+25.907497 s avg for 17 words
+Accuracy on 455 sentences: 0.931540
+Sentence 37764: 0.894737
+23.638401 s avg for 19 words
+Accuracy on 456 sentences: 0.931463
+Sentence 50431: 1.000000
+21.335763 s avg for 19 words
+Accuracy on 457 sentences: 0.931607
+Sentence 13539: 1.000000
+24.398193 s avg for 42 words
+Accuracy on 458 sentences: 0.931923
+Sentence 16041: 0.916667
+22.960006 s avg for 24 words
+Accuracy on 459 sentences: 0.931883
+Sentence 8429: 0.843750
+23.198500 s avg for 32 words
+Accuracy on 460 sentences: 0.931574
+Sentence 38738: 1.000000
+17.678377 s avg for 7 words
+Accuracy on 461 sentences: 0.931627
+Sentence 28690: 1.000000
+22.797653 s avg for 29 words
+Accuracy on 462 sentences: 0.931843
+Sentence 17548: 1.000000
+21.178082 s avg for 14 words
+Accuracy on 463 sentences: 0.931947
+Sentence 957: 0.972222
+24.677000 s avg for 36 words
+Accuracy on 464 sentences: 0.932104
+Sentence 43944: 1.000000
+13.539012 s avg for 4 words
+Accuracy on 465 sentences: 0.932134
+Sentence 43016: 1.000000
+21.362909 s avg for 9 words
+Accuracy on 466 sentences: 0.932200
+Sentence 25945: 0.870968
+25.502892 s avg for 31 words
+Accuracy on 467 sentences: 0.931995
+Sentence 24505: 0.971429
+23.699318 s avg for 35 words
+Accuracy on 468 sentences: 0.932143
+Sentence 25743: 0.905660
+26.245688 s avg for 53 words
+Accuracy on 469 sentences: 0.931993
+Sentence 28811: 0.814815
+25.075555 s avg for 27 words
+Accuracy on 470 sentences: 0.931656
+Sentence 3543: 1.000000
+7.102351 s avg for 3 words
+Accuracy on 471 sentences: 0.931678
+Sentence 19584: 0.894737
+21.049123 s avg for 19 words
+Accuracy on 472 sentences: 0.931603
+Sentence 32836: 1.000000
+21.892759 s avg for 21 words
+Accuracy on 473 sentences: 0.931755
+Sentence 32392: 1.000000
+21.949121 s avg for 17 words
+Accuracy on 474 sentences: 0.931878
+Sentence 3598: 0.869565
+21.461554 s avg for 23 words
+Accuracy on 475 sentences: 0.931727
+Sentence 47036: 1.000000
+11.319416 s avg for 4 words
+Accuracy on 476 sentences: 0.931756
+Sentence 41886: 0.961538
+22.615696 s avg for 26 words
+Accuracy on 477 sentences: 0.931837
+Sentence 39731: 0.888889
+23.364740 s avg for 18 words
+Accuracy on 478 sentences: 0.931756
+Sentence 30346: 1.000000
+19.538876 s avg for 9 words
+Accuracy on 479 sentences: 0.931821
+Sentence 7357: 0.976190
+25.537478 s avg for 42 words
+Accuracy on 480 sentences: 0.932015
+Sentence 1348: 0.800000
+20.589652 s avg for 10 words
+Accuracy on 481 sentences: 0.931878
+Sentence 1328: 0.952381
+22.271911 s avg for 21 words
+Accuracy on 482 sentences: 0.931922
+Sentence 34475: 0.933333
+22.859886 s avg for 30 words
+Accuracy on 483 sentences: 0.931927
+Sentence 57315: 0.000000
+0.000000 s avg for 0 words
+Accuracy on 484 sentences: 0.931927
+Sentence 51856: 0.952381
+21.021262 s avg for 21 words
+Accuracy on 485 sentences: 0.931971
+Sentence 40604: 0.947368
+23.955347 s avg for 19 words
+Accuracy on 486 sentences: 0.932002
+Sentence 32209: 1.000000
+23.847074 s avg for 39 words
+Accuracy on 487 sentences: 0.932275
+Sentence 5909: 0.952381
+20.683122 s avg for 21 words
+Accuracy on 488 sentences: 0.932318
+Sentence 48708: 0.800000
+12.845973 s avg for 5 words
+Accuracy on 489 sentences: 0.932250
+Sentence 6398: 0.750000
+9.046091 s avg for 4 words
+Accuracy on 490 sentences: 0.932176
+Sentence 18178: 0.774194
+23.130989 s avg for 31 words
+Accuracy on 491 sentences: 0.931674
+Sentence 1417: 0.888889
+16.965419 s avg for 9 words
+Accuracy on 492 sentences: 0.931634
+Sentence 8685: 0.961538
+20.827603 s avg for 26 words
+Accuracy on 493 sentences: 0.931714
+Sentence 55857: 1.000000
+19.768363 s avg for 17 words
+Accuracy on 494 sentences: 0.931832
+Sentence 11702: 0.880000
+21.606284 s avg for 25 words
+Accuracy on 495 sentences: 0.931700
+Sentence 43889: 0.968750
+37.538970 s avg for 32 words
+Accuracy on 496 sentences: 0.931820
+Sentence 44990: 1.000000
+37.492079 s avg for 13 words
+Accuracy on 497 sentences: 0.931910
+Sentence 54003: 0.869565
+45.565914 s avg for 23 words
+Accuracy on 498 sentences: 0.931765
+Sentence 17157: 0.880000
+45.980238 s avg for 25 words
+Accuracy on 499 sentences: 0.931635
+Sentence 49820: 0.909091
+40.646970 s avg for 11 words
+Accuracy on 500 sentences: 0.931610
+Finished Testing!
